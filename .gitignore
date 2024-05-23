@@ -1,0 +1,47 @@
+# Node modules directory
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Shopify theme settings
+config/settings_data.json
+
+# Ignore package-lock and yarn.lock files
+package-lock.json
+yarn.lock
+
+# Ignore .env files and other environment-specific files
+.env
+.env.*
+
+# MacOS generated files
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Temporary files
+*.tmp
+
+# SASS cache
+.sass-cache/
+
+# Any other unnecessary files
+*.bak
+*.swp
+
+# Local development environment
+dist/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore deployment artifacts
+public/
+deploy/
